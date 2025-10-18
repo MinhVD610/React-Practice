@@ -18,7 +18,7 @@ const TableUsers = (props) => {
     let res = await fetchAllUser(page, Total.totalPages);
     if (res) {
       console.log(res);
-      console.log(".");
+      console.log("....");
       setListUsers(res.data);
       setTotalPages(res.totalPages);
     }
