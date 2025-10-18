@@ -19,6 +19,7 @@ const TableUsers = (props) => {
     if (res) {
       console.log(res);
       console.log("....");
+      console.log("::");
       setListUsers(res.data);
       setTotalPages(res.totalPages);
     }
